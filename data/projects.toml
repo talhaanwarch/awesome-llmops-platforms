@@ -66,6 +66,7 @@ projects = [
   { repo = "evilmartians/agent-prism", desc = "React components for visualizing AI agent traces." },
   { repo = "dunetrace/dunetrace", desc = "Runtime reliability checks for AI agents.", license = "Apache-2.0" },
   { repo = "radicalbit/radicalbit-ai-monitoring", desc = "Monitoring for ML models and LLMs in production." },
+  { repo = "flik2002/openclaw-monitor", desc = "Self-hosted monitoring dashboard for OpenClaw AI agents: token usage, sessions and 7-day trends." },
 ]
 
 [[category]]
