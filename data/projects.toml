@@ -40,6 +40,7 @@ projects = [
 name = "Observability and tracing"
 blurb = "Record LLM calls, agent steps, cost and latency, and let you inspect them."
 projects = [
+  { repo = "PrefilerLabs/reliamesh", desc = "Self-hosted reliability monitoring for AI agents with structured outcome tracking, regression detection and incident recovery." },
   { repo = "raga-ai-hub/RagaAI-Catalyst", desc = "Python SDK for agent tracing, monitoring and evaluation." },
   { repo = "Arize-ai/phoenix", desc = "Tracing, evaluation and dataset experiments built on OpenTelemetry.", license = "Elastic-2.0", source_available = true },
   { repo = "evidentlyai/evidently", desc = "Evaluation, testing and monitoring for ML models and LLM systems." },
