@@ -176,6 +176,7 @@ projects = [
   { repo = "api7/aisix", desc = "Rust AI gateway with routing and guardrails, from API7." },
   { repo = "EinStack/glide", desc = "Model gateway for production GenAI apps." },
   { repo = "openziti/llm-gateway", desc = "Zero-trust LLM gateway with semantic routing." },
+  { repo = "huangjinpeng216/relay-failover", desc = "Node.js proxy that puts several OpenAI-compatible relays behind one endpoint and fails over when an upstream returns 5xx, times out or drops a stream." },
 ]
 
 [[category]]
