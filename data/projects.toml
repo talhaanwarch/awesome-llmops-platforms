@@ -140,6 +140,7 @@ projects = [
   { repo = "trylonai/gateway", desc = "Self-hosted LLM firewall with configurable guardrails.", license = "BUSL-1.1", source_available = true },
   { repo = "arekusandr/last_layer", desc = "Low-latency prompt-injection and jailbreak detection." },
   { repo = "presidio-oss/hai-guardrails", desc = "TypeScript guards for LLM applications.", license = "MIT" },
+  { repo = "vijaym2k6/SteerPlane", desc = "Runtime guardrails for AI agents: loop detection, per-run cost ceilings and allow/deny rules for tool calls." },
 ]
 
 [[category]]
