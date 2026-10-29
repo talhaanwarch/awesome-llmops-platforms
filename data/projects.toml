@@ -176,6 +176,7 @@ projects = [
   { repo = "api7/aisix", desc = "Rust AI gateway with routing and guardrails, from API7." },
   { repo = "EinStack/glide", desc = "Model gateway for production GenAI apps." },
   { repo = "openziti/llm-gateway", desc = "Zero-trust LLM gateway with semantic routing." },
+  { repo = "theluckystrike/tapvow", desc = "Local LLM gateway with signed per-agent budgets, virtual keys and tamper-evident spend receipts." },
 ]
 
 [[category]]
