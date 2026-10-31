@@ -152,6 +152,7 @@ projects = [
   { repo = "songquanpeng/one-api", desc = "LLM API key management and distribution behind one OpenAI-style API." },
   { repo = "Portkey-AI/gateway", desc = "AI gateway with routing, retries, caching and built-in guardrails." },
   { repo = "maximhq/bifrost", desc = "Go AI gateway with load balancing, clustering, guardrails and budgets." },
+  { repo = "attnstack/omni-route", desc = "Go gateway with per-task cost-quality routing, cascade upgrades and explainable routing headers." },
   { repo = "mnfst/llm-gateway", desc = "Self-hosted LLM gateway from Manifest." },
   { repo = "katanemo/plano", desc = "Proxy and data plane for agent apps: model routing, observability and guardrails." },
   { repo = "tbphp/gpt-load", desc = "Self-hosted gateway that pools keys and accounts, with failover and request logs." },
