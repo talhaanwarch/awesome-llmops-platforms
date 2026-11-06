@@ -2,7 +2,7 @@
 
 # Awesome LLMOps Platforms
 
-A curated list of **148 open-source tools for running LLM applications in production**: tracing, evaluation, gateways, guardrails and prompt management.
+A curated list of **149 open-source tools for running LLM applications in production**: tracing, evaluation, gateways, guardrails and prompt management.
 
 Every table is sorted by GitHub stars, highest first. A GitHub Action refreshes the stars, licenses and dates every week. Last refresh: **2026-11-06**.
 
@@ -15,7 +15,7 @@ This list covers tools you can run yourself. It leaves out papers, courses, mode
 - [OpenTelemetry instrumentation](#opentelemetry-instrumentation) (3)
 - [Evaluation and testing](#evaluation-and-testing) (33)
 - [Red teaming and security testing](#red-teaming-and-security-testing) (5)
-- [Guardrails](#guardrails) (10)
+- [Guardrails](#guardrails) (11)
 - [LLM gateways and routers](#llm-gateways-and-routers) (31)
 - [API and agent gateways with AI support](#api-and-agent-gateways-with-ai-support) (8)
 - [Prompt management](#prompt-management) (9)
@@ -163,6 +163,7 @@ Check inputs and outputs at runtime and block what should not pass.
 | 138 | [last_layer](https://github.com/arekusandr/last_layer) *(inactive)* | Low-latency prompt-injection and jailbreak detection. | MIT | 2024-07-26 |
 | 53 | [hai-guardrails](https://github.com/presidio-oss/hai-guardrails) | TypeScript guards for LLM applications. | MIT | 2026-02-06 |
 | 7 | [SteerPlane](https://github.com/vijaym2k6/SteerPlane) | Runtime guardrails for AI agents: loop detection, per-run cost ceilings and allow/deny rules for tool calls. | MIT | 2026-11-06 |
+| 0 | [argus](https://github.com/karmendra8386/argus) | OpenAI-compatible gateway that enforces security policy on LLM calls, with secret blocking, PII redaction, prompt-injection detection, YAML policy profiles and an audit log. | MIT | 2026-11-01 |
 
 ## LLM gateways and routers
 
