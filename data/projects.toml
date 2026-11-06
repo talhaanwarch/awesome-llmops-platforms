@@ -106,7 +106,6 @@ projects = [
   { repo = "relari-ai/continuous-eval", desc = "Data-driven, modular evaluation for LLM pipelines." },
   { repo = "rhesis-ai/rhesis", desc = "Test generation and review workflows for LLM apps and agents.", license = "MIT + EE" },
   { repo = "plurai-ai/intellagent", desc = "Agent evaluation through simulated, synthetic conversations." },
-  { repo = "empirical-run/empirical", desc = "Test and compare LLMs and model configurations." },
   { repo = "microsoft/promptpex", desc = "Generates test cases from prompts." },
   { repo = "agentevals-dev/agentevals", desc = "Framework-agnostic agent evaluations from OpenTelemetry traces." },
   { repo = "AlmogBaku/pytest-evals", desc = "Pytest plugin for LLM evaluation tests." },
