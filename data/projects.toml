@@ -195,6 +195,7 @@ projects = [
   { repo = "agentgateway/agentgateway", desc = "Proxy for agent-to-agent and MCP traffic." },
   { repo = "IBM/mcp-context-forge", desc = "Gateway and registry in front of MCP, A2A and REST services." },
   { repo = "APIParkLab/APIPark", desc = "AI and API gateway with an API developer portal." },
+  { repo = "KIvanow/spend-brake", desc = "Egress proxy that enforces hard dollar caps on the paid APIs agents call, per key, agent and session.", license = "Apache-2.0 + EE" },
 ]
 
 [[category]]
