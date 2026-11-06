@@ -83,6 +83,7 @@ projects = [
 name = "Evaluation and testing"
 blurb = "Score LLM outputs, run test suites and benchmarks, and catch regressions."
 projects = [
+  { repo = "dataagentsai/agenttwin", desc = "Runs an AI agent in a simulated world of customers, systems, data and faults, then checks what changed in that world." },
   { repo = "promptfoo/promptfoo", desc = "CLI and CI tool for testing prompts, agents and RAG, with red teaming." },
   { repo = "confident-ai/deepeval", desc = "Pytest-style evaluation framework with LLM-as-judge metrics." },
   { repo = "vibrantlabsai/ragas", desc = "Evaluation metrics and test-data generation for RAG and LLM apps." },
