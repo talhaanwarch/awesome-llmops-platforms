@@ -2,7 +2,7 @@
 
 # Awesome LLMOps Platforms
 
-A curated list of **144 open-source tools for running LLM applications in production**: tracing, evaluation, gateways, guardrails and prompt management.
+A curated list of **148 open-source tools for running LLM applications in production**: tracing, evaluation, gateways, guardrails and prompt management.
 
 Every table is sorted by GitHub stars, highest first. A GitHub Action refreshes the stars, licenses and dates every week. Last refresh: **2026-11-06**.
 
@@ -11,12 +11,12 @@ This list covers tools you can run yourself. It leaves out papers, courses, mode
 ## Contents
 
 - [All-in-one LLMOps platforms](#all-in-one-llmops-platforms) (21)
-- [Observability and tracing](#observability-and-tracing) (27)
+- [Observability and tracing](#observability-and-tracing) (28)
 - [OpenTelemetry instrumentation](#opentelemetry-instrumentation) (3)
-- [Evaluation and testing](#evaluation-and-testing) (32)
+- [Evaluation and testing](#evaluation-and-testing) (33)
 - [Red teaming and security testing](#red-teaming-and-security-testing) (5)
-- [Guardrails](#guardrails) (9)
-- [LLM gateways and routers](#llm-gateways-and-routers) (30)
+- [Guardrails](#guardrails) (10)
+- [LLM gateways and routers](#llm-gateways-and-routers) (31)
 - [API and agent gateways with AI support](#api-and-agent-gateways-with-ai-support) (8)
 - [Prompt management](#prompt-management) (9)
 
@@ -71,7 +71,7 @@ Record LLM calls, agent steps, cost and latency, and let you inspect them.
 | 1.0k | [llm.report](https://github.com/dillionverma/llm.report) *(archived)* | Logging and cost analytics for OpenAI API requests. | GPL-3.0 | 2024-05-14 |
 | 1.0k | [langkit](https://github.com/whylabs/langkit) *(inactive)* | Extracts quality and safety signals from prompts and responses for monitoring. | Apache-2.0 | 2024-11-22 |
 | 810 | [vllora](https://github.com/vllora/vllora) | Local debugging and tracing for AI agents. | Elastic-2.0 † | 2026-06-30 |
-| 404 | [agent-prism](https://github.com/evilmartians/agent-prism) | React components for visualizing AI agent traces. | MIT | 2026-10-08 |
+| 405 | [agent-prism](https://github.com/evilmartians/agent-prism) | React components for visualizing AI agent traces. | MIT | 2026-10-08 |
 | 133 | [traccia-py](https://github.com/traccia-ai/traccia-py) | OpenTelemetry-native SDK for agent tracing, evaluation and policy enforcement. | Apache-2.0 | 2026-11-05 |
 | 132 | [agento11y](https://github.com/grafana/agento11y) | Agent observability from Grafana Labs. | Apache-2.0 | 2026-11-06 |
 | 127 | [agentwatch](https://github.com/cyberark/agentwatch) *(inactive)* | Observability for agent interactions across frameworks. | Apache-2.0 | 2025-05-14 |
@@ -82,6 +82,7 @@ Record LLM calls, agent steps, cost and latency, and let you inspect them.
 | 68 | [dunetrace](https://github.com/dunetrace/dunetrace) | Runtime reliability checks for AI agents. | Apache-2.0 | 2026-09-20 |
 | 65 | [prompt_sail](https://github.com/PromptSail/prompt_sail) *(inactive)* | LLM proxy that captures and logs every request and response. | MIT | 2025-06-15 |
 | 54 | [myscale-telemetry](https://github.com/myscale/myscale-telemetry) *(inactive)* | Tracing for LLM applications stored in MyScale. | MIT | 2025-01-02 |
+| 5 | [reliamesh](https://github.com/PrefilerLabs/reliamesh) | Self-hosted reliability monitoring for AI agents with structured outcome tracking, regression detection and incident recovery. | Apache-2.0 | 2026-10-20 |
 | 3 | [llmbrake](https://github.com/llmbrake/llmbrake) | TypeScript library that tracks LLM cost per customer from token usage and enforces a monthly dollar budget for each. | MIT | 2026-10-17 |
 
 ## OpenTelemetry instrumentation
@@ -132,6 +133,7 @@ Score LLM outputs, run test suites and benchmarks, and catch regressions.
 | 61 | [dokimos](https://github.com/dokimos-dev/dokimos) | LLM and agent evaluation for Java and Kotlin, run in JUnit. | MIT | 2026-10-29 |
 | 52 | [litmus](https://github.com/google/litmus) | LLM testing and evaluation tool with a web UI. | Apache-2.0 | 2026-11-03 |
 | 51 | [viteval](https://github.com/viteval/viteval) | LLM evaluation framework built on Vitest. | MIT | 2026-11-06 |
+| 0 | [agenttwin](https://github.com/dataagentsai/agenttwin) | Runs an AI agent in a simulated world of customers, systems, data and faults, then checks what changed in that world. | Apache-2.0 | 2026-11-01 |
 
 ## Red teaming and security testing
 
@@ -160,6 +162,7 @@ Check inputs and outputs at runtime and block what should not pass.
 | 155 | [fast-llm-security-guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails) | Guardrails for prompt injection, PII and topic control. | MIT | 2026-02-03 |
 | 138 | [last_layer](https://github.com/arekusandr/last_layer) *(inactive)* | Low-latency prompt-injection and jailbreak detection. | MIT | 2024-07-26 |
 | 53 | [hai-guardrails](https://github.com/presidio-oss/hai-guardrails) | TypeScript guards for LLM applications. | MIT | 2026-02-06 |
+| 7 | [SteerPlane](https://github.com/vijaym2k6/SteerPlane) | Runtime guardrails for AI agents: loop detection, per-run cost ceilings and allow/deny rules for tool calls. | MIT | 2026-11-06 |
 
 ## LLM gateways and routers
 
@@ -197,6 +200,7 @@ One API in front of many model providers, with routing, fallbacks, keys, budgets
 | 214 | [aisix](https://github.com/api7/aisix) | Rust AI gateway with routing and guardrails, from API7. | Apache-2.0 | 2026-11-06 |
 | 160 | [glide](https://github.com/EinStack/glide) *(inactive)* | Model gateway for production GenAI apps. | Apache-2.0 | 2024-08-12 |
 | 104 | [llm-gateway](https://github.com/openziti/llm-gateway) | Zero-trust LLM gateway with semantic routing. | Apache-2.0 | 2026-10-14 |
+| 1 | [omni-route](https://github.com/attnstack/omni-route) | Go gateway with per-task cost-quality routing, cascade upgrades and explainable routing headers. | MIT | 2026-11-05 |
 
 ## API and agent gateways with AI support
 
