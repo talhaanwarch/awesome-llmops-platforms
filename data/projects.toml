@@ -144,6 +144,7 @@ projects = [
   { repo = "presidio-oss/hai-guardrails", desc = "TypeScript guards for LLM applications.", license = "MIT" },
   { repo = "karmendra8386/argus", desc = "OpenAI-compatible gateway that enforces security policy on LLM calls, with secret blocking, PII redaction, prompt-injection detection, YAML policy profiles and an audit log." },
   { repo = "vijaym2k6/SteerPlane", desc = "Runtime guardrails for AI agents: loop detection, per-run cost ceilings and allow/deny rules for tool calls." },
+  { repo = "vulnify/vulnify-sdk", desc = "Node.js SDK that sends an agent's tool call to the hosted Vulnify API and gets ALLOW, REVIEW or BLOCK before it runs." },
 ]
 
 [[category]]
