@@ -116,6 +116,7 @@ projects = [
   { repo = "dokimos-dev/dokimos", desc = "LLM and agent evaluation for Java and Kotlin, run in JUnit." },
   { repo = "viteval/viteval", desc = "LLM evaluation framework built on Vitest." },
   { repo = "google/litmus", desc = "LLM testing and evaluation tool with a web UI." },
+  { repo = "AgnostAI/create-evals", desc = "Coding-agent skill that runs your agent on realistic cases and turns the failures it finds into eval tests." },
 ]
 
 [[category]]
