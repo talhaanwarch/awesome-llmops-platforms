@@ -151,6 +151,7 @@ projects = [
 name = "LLM gateways and routers"
 blurb = "One API in front of many model providers, with routing, fallbacks, keys, budgets and logs."
 projects = [
+  { repo = "weave-os/router", desc = "Self-hosted Go proxy that selects a model for each request and supports Anthropic, OpenAI and Gemini APIs." },
   { repo = "diegosouzapw/OmniRoute", desc = "OpenAI-compatible gateway over hundreds of providers, many with free tiers." },
   { repo = "BerriAI/litellm", desc = "Python SDK and proxy server for 100+ LLM APIs, with cost tracking and budgets.", license = "MIT + EE" },
   { repo = "QuantumNous/new-api", desc = "Model aggregation gateway that converts between OpenAI, Claude and Gemini formats." },
