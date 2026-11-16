@@ -21,7 +21,8 @@ A project fits when all of these are true:
 
 3. Keep `desc` neutral and short. Say what the tool does. Leave out claims like "fastest" or "best", and leave out funding or accelerator badges.
 4. Set `license` only when GitHub shows "Other" or no license for the repo. Set `source_available = true` when the main code is not under an OSI-approved license.
-5. Optional: run `GITHUB_TOKEN=<token> python scripts/build_readme.py` to check your entry. It needs Python 3.11 or newer and no packages.
+5. Optional: set `homepage = "https://example.com"` when the project has an official site. The table then shows a `[site](...)` link next to the GitHub link. Leave it off when there is no separate site.
+6. Optional: run `GITHUB_TOKEN=<token> python scripts/build_readme.py` to check your entry. It needs Python 3.11 or newer and no packages.
 
 Order inside the file does not matter. The build sorts every table by stars.
 

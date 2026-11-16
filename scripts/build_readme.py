@@ -73,8 +73,10 @@ def render_row(p: dict, gh: dict, today: dt.date) -> str:
         license_ += " †"
 
     desc = p["desc"].replace("|", "/")
+    homepage = (p.get("homepage") or "").strip()
+    site = f" ([site]({homepage}))" if homepage else ""
     return (
-        f"| {format_stars(gh['stargazers_count'])} | [{label}](https://github.com/{name}){note} "
+        f"| {format_stars(gh['stargazers_count'])} | [{label}](https://github.com/{name}){site}{note} "
         f"| {desc} | {license_} | {pushed.isoformat()} |"
     )
 
