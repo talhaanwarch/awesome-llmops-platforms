@@ -183,6 +183,7 @@ projects = [
   { repo = "EinStack/glide", desc = "Model gateway for production GenAI apps." },
   { repo = "openziti/llm-gateway", desc = "Zero-trust LLM gateway with semantic routing." },
   { repo = "logicplanes/kaeso", desc = "Self-hosted Rust AI gateway with OpenAI- and Anthropic-compatible APIs, SSO, budgets and request logs." },
+  { repo = "yabaninai/yabanin-core", desc = "Self-hosted Go gateway with OpenAI- and Anthropic-compatible APIs, routing, access controls and usage tracking; Developer Preview." },
 ]
 
 [[category]]
