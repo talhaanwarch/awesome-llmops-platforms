@@ -128,6 +128,7 @@ projects = [
   { repo = "confident-ai/deepteam", desc = "Framework for red teaming LLMs and agents." },
   { repo = "msoedov/agentic_security", desc = "Vulnerability scanner and red-teaming kit for LLM apps." },
   { repo = "cyberark/FuzzyAI", desc = "Automated fuzzing to find jailbreaks in LLMs." },
+  { repo = "Frank-Masciopinto/ironheights", desc = "Static scanner for AI agent skills and MCP configs that flags prompt injection, credential reads and remote-exec installs before install." },
 ]
 
 [[category]]
