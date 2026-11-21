@@ -2,7 +2,7 @@
 
 # Awesome LLMOps Platforms
 
-A curated list of **158 open-source tools for running LLM applications in production**: tracing, evaluation, gateways, guardrails and prompt management.
+A curated list of **160 open-source tools for running LLM applications in production**: tracing, evaluation, gateways, guardrails and prompt management.
 
 Every table is sorted by GitHub stars, highest first. A GitHub Action refreshes the stars, licenses and dates every week. Last refresh: **2026-11-21**.
 
@@ -16,7 +16,7 @@ This list covers tools you can run yourself. It leaves out papers, courses, mode
 - [Evaluation and testing](#evaluation-and-testing) (35)
 - [Red teaming and security testing](#red-teaming-and-security-testing) (6)
 - [Guardrails](#guardrails) (12)
-- [LLM gateways and routers](#llm-gateways-and-routers) (34)
+- [LLM gateways and routers](#llm-gateways-and-routers) (36)
 - [API and agent gateways with AI support](#api-and-agent-gateways-with-ai-support) (9)
 - [Prompt management](#prompt-management) (10)
 
@@ -208,6 +208,8 @@ One API in front of many model providers, with routing, fallbacks, keys, budgets
 | 160 | [glide](https://github.com/EinStack/glide) *(inactive)* | Model gateway for production GenAI apps. | Apache-2.0 | 2024-08-12 |
 | 109 | [llm-gateway](https://github.com/openziti/llm-gateway) | Zero-trust LLM gateway with semantic routing. | Apache-2.0 | 2026-10-14 |
 | 19 | [kaeso](https://github.com/logicplanes/kaeso) | Self-hosted Rust AI gateway with OpenAI- and Anthropic-compatible APIs, SSO, budgets and request logs. | MIT | 2026-11-21 |
+| 11 | [yabanin-core](https://github.com/yabaninai/yabanin-core) | Self-hosted Go gateway with OpenAI- and Anthropic-compatible APIs, routing, access controls and usage tracking; Developer Preview. | Apache-2.0 | 2026-11-21 |
+| 2 | [OpenProxyAI](https://github.com/Rayyan-Oumlil/OpenProxyAI) | Self-hosted gateway that routes each request by data class, with policy checks, an audit trail, budgets and MCP tool control. | Apache-2.0 | 2026-11-21 |
 | 1 | [omni-route](https://github.com/attnstack/omni-route) | Go gateway with per-task cost-quality routing, cascade upgrades and explainable routing headers. | MIT | 2026-11-05 |
 
 ## API and agent gateways with AI support
