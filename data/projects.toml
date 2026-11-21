@@ -205,6 +205,7 @@ projects = [
   { repo = "IBM/mcp-context-forge", desc = "Gateway and registry in front of MCP, A2A and REST services." },
   { repo = "APIParkLab/APIPark", desc = "AI and API gateway with an API developer portal." },
   { repo = "KIvanow/spend-brake", desc = "Egress proxy that enforces hard dollar caps on the paid APIs agents call, per key, agent and session.", license = "Apache-2.0 + EE" },
+  { repo = "jiangxingfan1-coder/Open-Agent-API", desc = "Self-hosted gateway that exposes local coding agents through SDK-compatible APIs with scoped keys and operator approvals." },
 ]
 
 [[category]]
