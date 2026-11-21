@@ -86,6 +86,7 @@ projects = [
   { repo = "dataagentsai/agenttwin", desc = "Runs an AI agent in a simulated world of customers, systems, data and faults, then checks what changed in that world." },
   { repo = "promptfoo/promptfoo", desc = "CLI and CI tool for testing prompts, agents and RAG, with red teaming." },
   { repo = "confident-ai/deepeval", desc = "Pytest-style evaluation framework with LLM-as-judge metrics." },
+  { repo = "evalshift/evalshift-cli", desc = "Replays captured agent runs on a current and a candidate model and reports regressions with paired significance tests." },
   { repo = "vibrantlabsai/ragas", desc = "Evaluation metrics and test-data generation for RAG and LLM apps." },
   { repo = "EleutherAI/lm-evaluation-harness", desc = "Few-shot benchmark harness for evaluating language models." },
   { repo = "open-compass/opencompass", desc = "Model evaluation platform across 100+ benchmark datasets." },
