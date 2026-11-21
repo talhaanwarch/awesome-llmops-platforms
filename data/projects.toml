@@ -146,6 +146,7 @@ projects = [
   { repo = "presidio-oss/hai-guardrails", desc = "TypeScript guards for LLM applications.", license = "MIT" },
   { repo = "karmendra8386/argus", desc = "OpenAI-compatible gateway that enforces security policy on LLM calls, with secret blocking, PII redaction, prompt-injection detection, YAML policy profiles and an audit log." },
   { repo = "vijaym2k6/SteerPlane", desc = "Runtime guardrails for AI agents: loop detection, per-run cost ceilings and allow/deny rules for tool calls." },
+  { repo = "madarco/controlclaw", desc = "Firewall for OpenClaw agents: plain-English rules for every request and MCP call, secrets kept off the agent and approvals for risky actions." },
 ]
 
 [[category]]
