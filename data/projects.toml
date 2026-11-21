@@ -210,6 +210,7 @@ name = "Prompt management"
 blurb = "Store, version, test and serve prompts outside your application code."
 projects = [
   { repo = "promptslab/Promptify", desc = "Prompt templates and versioning for structured LLM output." },
+  { repo = "himanshu231204/prompt-migrate", desc = "Alembic-style migrations for prompts and agent configs, with per-environment state, rollback and drift checks." },
   { repo = "microsoft/prompty", desc = "File format and tooling for creating, running and evaluating prompts." },
   { repo = "lastmile-ai/aiconfig", desc = "Config-based format for storing prompts and model settings." },
   { repo = "YellowSeaa/PromptWorks", desc = "Prompt management and testing tool." },
