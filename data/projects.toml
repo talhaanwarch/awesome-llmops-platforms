@@ -184,6 +184,7 @@ projects = [
   { repo = "EinStack/glide", desc = "Model gateway for production GenAI apps." },
   { repo = "openziti/llm-gateway", desc = "Zero-trust LLM gateway with semantic routing." },
   { repo = "logicplanes/kaeso", desc = "Self-hosted Rust AI gateway with OpenAI- and Anthropic-compatible APIs, SSO, budgets and request logs." },
+  { repo = "respanai/respan-gateway", desc = "Rust LLM gateway that serves MCP servers and tool APIs to any model behind one OpenAI-compatible endpoint." },
 ]
 
 [[category]]
