@@ -4,7 +4,7 @@
 
 A curated list of **160 open-source tools for running LLM applications in production**: tracing, evaluation, gateways, guardrails and prompt management.
 
-Every table is sorted by GitHub stars, highest first. A GitHub Action refreshes the stars, licenses and dates every week. Last refresh: **2026-11-21**.
+Every table is sorted by GitHub stars, highest first. A GitHub Action refreshes the stars, licenses and dates every week. Last refresh: **2026-11-23**.
 
 This list covers tools you can run yourself. It leaves out papers, courses, model benchmarks and agent frameworks. Other lists cover those well.
 
@@ -28,27 +28,27 @@ Platforms that combine at least two of tracing, evaluation, prompt management an
 
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
-| 37.7k | [langfuse](https://github.com/langfuse/langfuse) | Tracing, evaluations, prompt management and datasets for LLM apps and agents. | MIT + EE | 2026-11-21 |
-| 28.9k | [mlflow](https://github.com/mlflow/mlflow) | ML and AI engineering platform with LLM tracing, evaluation and a prompt registry. | Apache-2.0 | 2026-11-21 |
-| 23.5k | [opik](https://github.com/comet-ml/opik) | Tracing, automated evaluations and production monitoring for LLM apps, RAG and agents. | Apache-2.0 | 2026-11-21 |
+| 37.8k | [langfuse](https://github.com/langfuse/langfuse) | Tracing, evaluations, prompt management and datasets for LLM apps and agents. | MIT + EE | 2026-11-23 |
+| 28.9k | [mlflow](https://github.com/mlflow/mlflow) | ML and AI engineering platform with LLM tracing, evaluation and a prompt registry. | Apache-2.0 | 2026-11-23 |
+| 23.5k | [opik](https://github.com/comet-ml/opik) | Tracing, automated evaluations and production monitoring for LLM apps, RAG and agents. | Apache-2.0 | 2026-11-23 |
 | 11.7k | [tensorzero](https://github.com/tensorzero/tensorzero) *(archived)* | LLM gateway, observability, evaluation, optimization and experimentation in one stack. | Apache-2.0 | 2026-06-11 |
 | 5.8k | [coze-loop](https://github.com/coze-dev/coze-loop) | Agent development platform with prompt debugging, evaluation and trace monitoring. | Apache-2.0 | 2026-11-17 |
-| 5.3k | [Kiln](https://github.com/Kiln-AI/Kiln) | Desktop app and library for evals, synthetic data, fine-tuning and dataset management. | MIT (libs) + EULA (app) † | 2026-11-21 |
-| 5.1k | [langwatch](https://github.com/langwatch/langwatch) | Agent observability, evaluations, simulations and prompt management. | Apache-2.0 | 2026-11-21 |
-| 4.9k | [agenta](https://github.com/Agenta-AI/agenta) | Prompt playground, prompt versioning, evaluation and observability for LLM apps. | MIT + EE | 2026-11-21 |
-| 4.8k | [latitude-llm](https://github.com/latitude-dev/latitude-llm) | Prompt management, evaluations and observability for AI agents. | MIT | 2026-11-18 |
+| 5.3k | [Kiln](https://github.com/Kiln-AI/Kiln) | Desktop app and library for evals, synthetic data, fine-tuning and dataset management. | MIT (libs) + EULA (app) † | 2026-11-23 |
+| 5.1k | [langwatch](https://github.com/langwatch/langwatch) | Agent observability, evaluations, simulations and prompt management. | Apache-2.0 | 2026-11-23 |
+| 4.9k | [agenta](https://github.com/Agenta-AI/agenta) | Prompt playground, prompt versioning, evaluation and observability for LLM apps. | MIT + EE | 2026-11-23 |
+| 4.8k | [latitude-llm](https://github.com/latitude-dev/latitude-llm) | Prompt management, evaluations and observability for AI agents. | MIT | 2026-11-23 |
 | 3.3k | [pezzo](https://github.com/pezzolabs/pezzo) | Prompt design, versioning, delivery and observability for LLM apps. | Apache-2.0 | 2026-11-08 |
-| 2.3k | [future-agi](https://github.com/future-agi/future-agi) | Tracing, evals, simulations, datasets and guardrails for LLM and agent apps. | Apache-2.0 | 2026-11-21 |
+| 2.3k | [future-agi](https://github.com/future-agi/future-agi) | Tracing, evals, simulations, datasets and guardrails for LLM and agent apps. | Apache-2.0 | 2026-11-23 |
 | 1.2k | [weave](https://github.com/wandb/weave) | Tracing, evaluations and scoring for LLM apps, from Weights & Biases. | Apache-2.0 | 2026-11-20 |
 | 868 | [pandaprobe](https://github.com/chirpz-ai/pandaprobe) | Traces, evals and metrics for agents built with LangGraph, CrewAI and others. | Apache-2.0 | 2026-11-21 |
-| 772 | [overmind](https://github.com/overmind-core/overmind) | Tracing and evaluation loop for continuously improving AI agents. | AGPL-3.0 | 2026-11-21 |
+| 780 | [overmind](https://github.com/overmind-core/overmind) | Tracing and evaluation loop for continuously improving AI agents. | AGPL-3.0 | 2026-11-23 |
 | 389 | [LLMstudio](https://github.com/TensorOpsAI/LLMstudio) | LLM proxy, prompt playground and request logging for production apps. | MPL-2.0 | 2026-07-29 |
 | 343 | [palico-ai](https://github.com/palico-ai/palico-ai) *(inactive)* | Framework for building, experimenting with and evaluating LLM applications. | MIT | 2024-11-26 |
 | 235 | [starwhale](https://github.com/star-whale/starwhale) *(inactive)* | MLOps and LLMOps platform for model evaluation, datasets and fine-tuning. | Apache-2.0 | 2024-12-20 |
-| 131 | [kitchenai](https://github.com/epuerta9/kitchenai) *(inactive)* | LLMOps toolkit for building, testing and deploying AI app backends. | Apache-2.0 | 2025-02-14 |
-| 116 | [litefuse](https://github.com/litefuse/litefuse) | Lightweight agent observability and evaluation platform derived from Langfuse. | MIT | 2026-11-20 |
+| 130 | [kitchenai](https://github.com/epuerta9/kitchenai) *(inactive)* | LLMOps toolkit for building, testing and deploying AI app backends. | Apache-2.0 | 2025-02-14 |
+| 117 | [litefuse](https://github.com/litefuse/litefuse) | Lightweight agent observability and evaluation platform derived from Langfuse. | MIT | 2026-11-23 |
 | 112 | [arcadia](https://github.com/kubeagi/arcadia) *(inactive)* | Kubernetes-native LLMOps platform for model serving, RAG and agent apps. | Apache-2.0 | 2024-09-21 |
-| 14 | [AcruxCore](https://github.com/AcruxCore/AcruxCore) | Prompt management, an OpenAI-compatible gateway, OpenTelemetry tracing, a tool catalog and evals. | Apache-2.0 | 2026-11-20 |
+| 14 | [AcruxCore](https://github.com/AcruxCore/AcruxCore) | Prompt management, an OpenAI-compatible gateway, OpenTelemetry tracing, a tool catalog and evals. | Apache-2.0 | 2026-11-22 |
 
 ## Observability and tracing
 
@@ -57,29 +57,29 @@ Record LLM calls, agent steps, cost and latency, and let you inspect them.
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
 | 16.2k | [RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | Python SDK for agent tracing, monitoring and evaluation. | Apache-2.0 | 2026-02-11 |
-| 12.4k | [phoenix](https://github.com/Arize-ai/phoenix) | Tracing, evaluation and dataset experiments built on OpenTelemetry. | Elastic-2.0 † | 2026-11-21 |
+| 12.4k | [phoenix](https://github.com/Arize-ai/phoenix) | Tracing, evaluation and dataset experiments built on OpenTelemetry. | Elastic-2.0 † | 2026-11-23 |
 | 8.1k | [evidently](https://github.com/evidentlyai/evidently) | Evaluation, testing and monitoring for ML models and LLM systems. | Apache-2.0 | 2026-09-29 |
 | 6.3k | [helicone](https://github.com/Helicone/helicone) | Proxy-based LLM observability: request logging, cost tracking, sessions and prompts. | Apache-2.0 | 2026-11-17 |
 | 6.0k | [agentops](https://github.com/AgentOps-AI/agentops) | Python SDK for agent monitoring, cost tracking and session replay. | MIT | 2026-06-25 |
-| 4.6k | [logfire](https://github.com/pydantic/logfire) | Observability for LLM and agent systems, built on OpenTelemetry, from the Pydantic team. | MIT | 2026-11-21 |
+| 4.6k | [logfire](https://github.com/pydantic/logfire) | Observability for LLM and agent systems, built on OpenTelemetry, from the Pydantic team. | MIT | 2026-11-23 |
 | 4.1k | [deepchecks](https://github.com/deepchecks/deepchecks) | Validation and testing for ML models and data, including LLM checks. | unknown | 2025-12-28 |
-| 3.5k | [lmnr](https://github.com/lmnr-ai/lmnr) | Tracing, evaluations and session replay purpose-built for AI agents. | Apache-2.0 | 2026-11-20 |
-| 3.1k | [openlit](https://github.com/openlit/openlit) | OpenTelemetry-native tracing, evaluation, guardrails and GPU monitoring for AI apps. | Apache-2.0 | 2026-11-19 |
-| 1.4k | [traceroot](https://github.com/traceroot-ai/traceroot) | Tracing and debugging layer for AI agents. | Apache-2.0 + EE | 2026-11-21 |
+| 3.5k | [lmnr](https://github.com/lmnr-ai/lmnr) | Tracing, evaluations and session replay purpose-built for AI agents. | Apache-2.0 | 2026-11-23 |
+| 3.1k | [openlit](https://github.com/openlit/openlit) | OpenTelemetry-native tracing, evaluation, guardrails and GPU monitoring for AI apps. | Apache-2.0 | 2026-11-23 |
+| 1.5k | [traceroot](https://github.com/traceroot-ai/traceroot) | Tracing and debugging layer for AI agents. | Apache-2.0 + EE | 2026-11-23 |
 | 1.2k | [langtrace](https://github.com/Scale3-Labs/langtrace) *(inactive)* | OpenTelemetry-based tracing and evaluation for LLM applications. | AGPL-3.0 | 2025-11-17 |
 | 1.1k | [langsmith-sdk](https://github.com/langchain-ai/langsmith-sdk) *(archived)* | Client SDKs for LangSmith tracing and evaluation (the LangSmith server is not open source). | MIT | 2026-10-16 |
 | 1.0k | [llm.report](https://github.com/dillionverma/llm.report) *(archived)* | Logging and cost analytics for OpenAI API requests. | GPL-3.0 | 2024-05-14 |
 | 1.0k | [langkit](https://github.com/whylabs/langkit) *(inactive)* | Extracts quality and safety signals from prompts and responses for monitoring. | Apache-2.0 | 2024-11-22 |
 | 810 | [vllora](https://github.com/vllora/vllora) | Local debugging and tracing for AI agents. | Elastic-2.0 † | 2026-06-30 |
-| 409 | [agent-prism](https://github.com/evilmartians/agent-prism) | React components for visualizing AI agent traces. | MIT | 2026-10-08 |
-| 135 | [agento11y](https://github.com/grafana/agento11y) | Agent observability from Grafana Labs. | Apache-2.0 | 2026-11-21 |
+| 410 | [agent-prism](https://github.com/evilmartians/agent-prism) | React components for visualizing AI agent traces. | MIT | 2026-10-08 |
+| 136 | [agento11y](https://github.com/grafana/agento11y) | Agent observability from Grafana Labs. | Apache-2.0 | 2026-11-22 |
 | 134 | [traccia-py](https://github.com/traccia-ai/traccia-py) | OpenTelemetry-native SDK for agent tracing, evaluation and policy enforcement. | Apache-2.0 | 2026-11-21 |
 | 127 | [agentwatch](https://github.com/cyberark/agentwatch) *(inactive)* | Observability for agent interactions across frameworks. | Apache-2.0 | 2025-05-14 |
 | 125 | [tma1](https://github.com/tma1-ai/tma1) | Local-first LLM call recorder that feeds what it sees back to the agent. | Apache-2.0 | 2026-11-14 |
-| 108 | [agent-trace](https://github.com/Siddhant-K-code/agent-trace) | Shows what an agent did, what it cost and where it failed. | MIT | 2026-11-21 |
+| 108 | [agent-trace](https://github.com/Siddhant-K-code/agent-trace) | Shows what an agent did, what it cost and where it failed. | MIT | 2026-11-23 |
 | 96 | [Axon](https://github.com/langchain-tracer/Axon) | OpenTelemetry-native CLI that shows LLM and agent traces in real time. | MIT | 2026-08-06 |
 | 92 | [radicalbit-ai-monitoring](https://github.com/radicalbit/radicalbit-ai-monitoring) | Monitoring for ML models and LLMs in production. | Apache-2.0 | 2026-06-15 |
-| 73 | [dunetrace](https://github.com/dunetrace/dunetrace) | Runtime reliability checks for AI agents. | Apache-2.0 | 2026-11-20 |
+| 73 | [dunetrace](https://github.com/dunetrace/dunetrace) | Runtime reliability checks for AI agents. | Apache-2.0 | 2026-11-22 |
 | 65 | [prompt_sail](https://github.com/PromptSail/prompt_sail) *(inactive)* | LLM proxy that captures and logs every request and response. | MIT | 2025-06-15 |
 | 54 | [myscale-telemetry](https://github.com/myscale/myscale-telemetry) *(inactive)* | Tracing for LLM applications stored in MyScale. | MIT | 2025-01-02 |
 | 5 | [reliamesh](https://github.com/PrefilerLabs/reliamesh) | Self-hosted reliability monitoring for AI agents with structured outcome tracking, regression detection and incident recovery. | Apache-2.0 | 2026-11-17 |
@@ -91,8 +91,8 @@ Libraries that emit LLM spans in OpenTelemetry format, so any compatible backend
 
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
-| 7.5k | [openllmetry](https://github.com/traceloop/openllmetry) | OpenTelemetry instrumentation for LLM providers, vector DBs and frameworks (Python). | Apache-2.0 | 2026-11-19 |
-| 1.3k | [openinference](https://github.com/Arize-ai/openinference) | OpenTelemetry semantic conventions and instrumentation for AI apps. | Apache-2.0 | 2026-11-21 |
+| 7.5k | [openllmetry](https://github.com/traceloop/openllmetry) | OpenTelemetry instrumentation for LLM providers, vector DBs and frameworks (Python). | Apache-2.0 | 2026-11-23 |
+| 1.3k | [openinference](https://github.com/Arize-ai/openinference) | OpenTelemetry semantic conventions and instrumentation for AI apps. | Apache-2.0 | 2026-11-23 |
 | 413 | [openllmetry-js](https://github.com/traceloop/openllmetry-js) | OpenTelemetry instrumentation for LLM apps (TypeScript). | Apache-2.0 | 2026-06-18 |
 
 ## Evaluation and testing
@@ -101,39 +101,39 @@ Score LLM outputs, run test suites and benchmarks, and catch regressions.
 
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
-| 27.5k | [promptfoo](https://github.com/promptfoo/promptfoo) | CLI and CI tool for testing prompts, agents and RAG, with red teaming. | MIT | 2026-11-21 |
+| 27.6k | [promptfoo](https://github.com/promptfoo/promptfoo) | CLI and CI tool for testing prompts, agents and RAG, with red teaming. | MIT | 2026-11-23 |
 | 19.8k | [evals](https://github.com/openai/evals) | Framework and registry of benchmarks for evaluating LLMs. | MIT | 2026-04-14 |
-| 19.6k | [deepeval](https://github.com/confident-ai/deepeval) | Pytest-style evaluation framework with LLM-as-judge metrics. | Apache-2.0 | 2026-11-19 |
+| 19.6k | [deepeval](https://github.com/confident-ai/deepeval) | Pytest-style evaluation framework with LLM-as-judge metrics. | Apache-2.0 | 2026-11-23 |
 | 16.4k | [ragas](https://github.com/vibrantlabsai/ragas) | Evaluation metrics and test-data generation for RAG and LLM apps. | Apache-2.0 | 2026-11-14 |
 | 14.5k | [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) | Few-shot benchmark harness for evaluating language models. | MIT | 2026-11-04 |
 | 7.6k | [opencompass](https://github.com/open-compass/opencompass) | Model evaluation platform across 100+ benchmark datasets. | Apache-2.0 | 2026-11-18 |
-| 7.3k | [harbor](https://github.com/harbor-framework/harbor) | Framework for evaluating and improving agents. | Apache-2.0 | 2026-11-21 |
-| 6.0k | [giskard-oss](https://github.com/Giskard-AI/giskard-oss) | Evaluation and testing library for LLM agents. | Apache-2.0 | 2026-11-20 |
-| 3.7k | [trulens](https://github.com/truera/trulens) | Evaluation and tracking for LLM experiments and agents. | MIT | 2026-11-20 |
-| 3.3k | [inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai) | Framework for LLM evaluations from the UK AI Security Institute. | MIT | 2026-11-21 |
+| 7.4k | [harbor](https://github.com/harbor-framework/harbor) | Framework for evaluating and improving agents. | Apache-2.0 | 2026-11-23 |
+| 6.0k | [giskard-oss](https://github.com/Giskard-AI/giskard-oss) | Evaluation and testing library for LLM agents. | Apache-2.0 | 2026-11-23 |
+| 3.7k | [trulens](https://github.com/truera/trulens) | Evaluation and tracking for LLM experiments and agents. | MIT | 2026-11-23 |
+| 3.3k | [inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai) | Framework for LLM evaluations from the UK AI Security Institute. | MIT | 2026-11-23 |
 | 3.1k | [prompttools](https://github.com/hegelai/prompttools) | Tools for prompt testing and experiments across models and vector DBs. | Apache-2.0 | 2026-02-11 |
 | 3.0k | [ChainForge](https://github.com/ianarawjo/ChainForge) | Visual environment for comparing prompts and models side by side. | MIT | 2026-10-29 |
 | 3.0k | [helm](https://github.com/stanford-crfm/helm) | Holistic Evaluation of Language Models, from Stanford CRFM. | Apache-2.0 | 2026-09-01 |
 | 2.4k | [uptrain](https://github.com/uptrain-ai/uptrain) *(inactive)* | Preconfigured checks for grading LLM responses. | Apache-2.0 | 2024-08-18 |
-| 2.3k | [inspector](https://github.com/MCPJam/inspector) | Testing and evaluation tool for MCP servers and apps. | Apache-2.0 + commercial | 2026-11-21 |
+| 2.3k | [inspector](https://github.com/MCPJam/inspector) | Testing and evaluation tool for MCP servers and apps. | Apache-2.0 + commercial | 2026-11-23 |
 | 1.7k | [evalite](https://github.com/mattpocock/evalite) *(archived)* | TypeScript eval runner with a local UI. | MIT | 2026-11-09 |
 | 1.3k | [intellagent](https://github.com/plurai-ai/intellagent) | Agent evaluation through simulated, synthetic conversations. | Apache-2.0 | 2026-09-14 |
 | 1.3k | [openevals](https://github.com/langchain-ai/openevals) | Ready-made evaluators for LLM apps. | MIT | 2026-11-18 |
 | 1.2k | [uqlm](https://github.com/cvs-health/uqlm) | Hallucination detection using uncertainty quantification. | Apache-2.0 | 2026-11-08 |
 | 1.1k | [prometheus-eval](https://github.com/prometheus-eval/prometheus-eval) *(inactive)* | Open evaluator models for scoring LLM responses. | Apache-2.0 | 2025-04-25 |
 | 1.1k | [autoevals](https://github.com/braintrustdata/autoevals) | Library of evaluators for scoring AI model outputs. | MIT | 2026-11-19 |
-| 1.1k | [judgeval](https://github.com/JudgmentLabs/judgeval) | Evals and monitoring for agents. | Apache-2.0 | 2026-11-19 |
+| 1.1k | [judgeval](https://github.com/JudgmentLabs/judgeval) | Evals and monitoring for agents. | Apache-2.0 | 2026-11-23 |
 | 519 | [continuous-eval](https://github.com/relari-ai/continuous-eval) | Data-driven, modular evaluation for LLM pipelines. | Apache-2.0 | 2026-08-10 |
-| 405 | [rhesis](https://github.com/rhesis-ai/rhesis) | Test generation and review workflows for LLM apps and agents. | MIT + EE | 2026-11-21 |
+| 405 | [rhesis](https://github.com/rhesis-ai/rhesis) | Test generation and review workflows for LLM apps and agents. | MIT + EE | 2026-11-23 |
 | 327 | [tonic_validate](https://github.com/TonicAI/tonic_validate) *(inactive)* | Metrics for evaluating RAG responses. | MIT | 2025-07-10 |
-| 171 | [agentevals](https://github.com/agentevals-dev/agentevals) | Framework-agnostic agent evaluations from OpenTelemetry traces. | Apache-2.0 | 2026-11-20 |
+| 171 | [agentevals](https://github.com/agentevals-dev/agentevals) | Framework-agnostic agent evaluations from OpenTelemetry traces. | Apache-2.0 | 2026-11-23 |
 | 165 | [promptpex](https://github.com/microsoft/promptpex) | Generates test cases from prompts. | CC-BY-4.0 | 2026-11-13 |
 | 162 | [pytest-evals](https://github.com/AlmogBaku/pytest-evals) *(inactive)* | Pytest plugin for LLM evaluation tests. | MIT | 2025-02-05 |
 | 108 | [autoarena](https://github.com/kolenaIO/autoarena) *(inactive)* | Ranks models, RAG systems and prompts through head-to-head judging. | Apache-2.0 | 2024-12-16 |
 | 64 | [dokimos](https://github.com/dokimos-dev/dokimos) | LLM and agent evaluation for Java and Kotlin, run in JUnit. | MIT | 2026-11-12 |
-| 52 | [viteval](https://github.com/viteval/viteval) | LLM evaluation framework built on Vitest. | MIT | 2026-11-06 |
+| 53 | [viteval](https://github.com/viteval/viteval) | LLM evaluation framework built on Vitest. | MIT | 2026-11-06 |
 | 52 | [litmus](https://github.com/google/litmus) | LLM testing and evaluation tool with a web UI. | Apache-2.0 | 2026-11-20 |
-| 14 | [evalshift-cli](https://github.com/evalshift/evalshift-cli) | Replays captured agent runs on a current and a candidate model and reports regressions with paired significance tests. | Apache-2.0 | 2026-11-17 |
+| 15 | [evalshift-cli](https://github.com/evalshift/evalshift-cli) | Replays captured agent runs on a current and a candidate model and reports regressions with paired significance tests. | Apache-2.0 | 2026-11-17 |
 | 0 | [agenttwin](https://github.com/dataagentsai/agenttwin) | Runs an AI agent in a simulated world of customers, systems, data and faults, then checks what changed in that world. | Apache-2.0 | 2026-11-01 |
 | 0 | [create-evals](https://github.com/AgnostAI/create-evals) | Coding-agent skill that runs your agent on realistic cases and turns the failures it finds into eval tests. | MIT | 2026-11-07 |
 
@@ -144,11 +144,11 @@ Attack your own LLM app before someone else does: jailbreaks, prompt injection, 
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
 | 10.1k | [garak](https://github.com/NVIDIA/garak) | LLM vulnerability scanner. | Apache-2.0 | 2026-11-18 |
-| 7.6k | [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Red-teaming platform covering agents, MCP servers and jailbreaks. | Apache-2.0 | 2026-11-20 |
+| 7.6k | [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Red-teaming platform covering agents, MCP servers and jailbreaks. | Apache-2.0 | 2026-11-23 |
 | 3.1k | [deepteam](https://github.com/confident-ai/deepteam) | Framework for red teaming LLMs and agents. | Apache-2.0 | 2026-10-23 |
-| 2.0k | [agentic_security](https://github.com/msoedov/agentic_security) | Vulnerability scanner and red-teaming kit for LLM apps. | Apache-2.0 | 2026-11-19 |
+| 2.0k | [agentic_security](https://github.com/msoedov/agentic_security) | Vulnerability scanner and red-teaming kit for LLM apps. | Apache-2.0 | 2026-11-23 |
 | 1.6k | [FuzzyAI](https://github.com/cyberark/FuzzyAI) | Automated fuzzing to find jailbreaks in LLMs. | Apache-2.0 | 2026-02-06 |
-| 4 | [ironheights](https://github.com/Frank-Masciopinto/ironheights) | Static scanner for AI agent skills and MCP configs that flags prompt injection, credential reads and remote-exec installs before install. | Apache-2.0 | 2026-11-21 |
+| 4 | [ironheights](https://github.com/Frank-Masciopinto/ironheights) | Static scanner for AI agent skills and MCP configs that flags prompt injection, credential reads and remote-exec installs before install. | Apache-2.0 | 2026-11-23 |
 
 ## Guardrails
 
@@ -157,15 +157,15 @@ Check inputs and outputs at runtime and block what should not pass.
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
 | 7.6k | [guardrails](https://github.com/guardrails-ai/guardrails) | Validators that check and correct LLM inputs and outputs. | Apache-2.0 | 2026-11-18 |
-| 7.5k | [Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | Programmable guardrails for conversational LLM systems. | Apache-2.0 | 2026-11-19 |
+| 7.6k | [Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | Programmable guardrails for conversational LLM systems. | Apache-2.0 | 2026-11-19 |
 | 3.2k | [llm-guard](https://github.com/protectai/llm-guard) *(archived)* | Input and output scanners for LLM interactions. | MIT | 2026-07-08 |
 | 1.5k | [rebuff](https://github.com/protectai/rebuff) *(archived)* | Prompt-injection detector. | Apache-2.0 | 2024-08-07 |
-| 511 | [vigil-llm](https://github.com/deadbits/vigil-llm) *(inactive)* | Detects prompt injections and jailbreaks in LLM inputs. | Apache-2.0 | 2024-01-31 |
+| 512 | [vigil-llm](https://github.com/deadbits/vigil-llm) *(inactive)* | Detects prompt injections and jailbreaks in LLM inputs. | Apache-2.0 | 2024-01-31 |
 | 181 | [gateway](https://github.com/trylonai/gateway) *(inactive)* | Self-hosted LLM firewall with configurable guardrails. | BUSL-1.1 † | 2025-06-25 |
 | 154 | [fast-llm-security-guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails) | Guardrails for prompt injection, PII and topic control. | MIT | 2026-02-03 |
-| 140 | [last_layer](https://github.com/arekusandr/last_layer) *(inactive)* | Low-latency prompt-injection and jailbreak detection. | MIT | 2024-07-26 |
+| 141 | [last_layer](https://github.com/arekusandr/last_layer) *(inactive)* | Low-latency prompt-injection and jailbreak detection. | MIT | 2024-07-26 |
 | 53 | [hai-guardrails](https://github.com/presidio-oss/hai-guardrails) | TypeScript guards for LLM applications. | MIT | 2026-02-06 |
-| 8 | [SteerPlane](https://github.com/vijaym2k6/SteerPlane) | Runtime guardrails for AI agents: loop detection, per-run cost ceilings and allow/deny rules for tool calls. | MIT | 2026-11-21 |
+| 8 | [SteerPlane](https://github.com/vijaym2k6/SteerPlane) | Runtime guardrails for AI agents: loop detection, per-run cost ceilings and allow/deny rules for tool calls. | MIT | 2026-11-22 |
 | 5 | [controlclaw](https://github.com/madarco/controlclaw) | Firewall for OpenClaw agents: plain-English rules for every request and MCP call, secrets kept off the agent and approvals for risky actions. | AGPL-3.0 | 2026-11-12 |
 | 0 | [argus](https://github.com/karmendra8386/argus) | OpenAI-compatible gateway that enforces security policy on LLM calls, with secret blocking, PII redaction, prompt-injection detection, YAML policy profiles and an audit log. | MIT | 2026-11-20 |
 
@@ -175,40 +175,40 @@ One API in front of many model providers, with routing, fallbacks, keys, budgets
 
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
-| 89.4k | [OmniRoute](https://github.com/cheaper-inference/OmniRoute) | OpenAI-compatible gateway over hundreds of providers, many with free tiers. | MIT | 2026-11-21 |
-| 63.7k | [litellm](https://github.com/BerriAI/litellm) | Python SDK and proxy server for 100+ LLM APIs, with cost tracking and budgets. | MIT + EE | 2026-11-21 |
-| 52.3k | [new-api](https://github.com/QuantumNous/new-api) | Model aggregation gateway that converts between OpenAI, Claude and Gemini formats. | AGPL-3.0 | 2026-11-20 |
+| 89.8k | [OmniRoute](https://github.com/cheaper-inference/OmniRoute) | OpenAI-compatible gateway over hundreds of providers, many with free tiers. | MIT | 2026-11-23 |
+| 63.8k | [litellm](https://github.com/BerriAI/litellm) | Python SDK and proxy server for 100+ LLM APIs, with cost tracking and budgets. | MIT + EE | 2026-11-23 |
+| 52.4k | [new-api](https://github.com/QuantumNous/new-api) | Model aggregation gateway that converts between OpenAI, Claude and Gemini formats. | AGPL-3.0 | 2026-11-22 |
 | 37.5k | [one-api](https://github.com/songquanpeng/one-api) | LLM API key management and distribution behind one OpenAI-style API. | MIT | 2026-01-09 |
 | 13.4k | [gateway](https://github.com/Portkey-AI/gateway) | AI gateway with routing, retries, caching and built-in guardrails. | MIT | 2026-11-20 |
-| 9.9k | [bifrost](https://github.com/maximhq/bifrost) | Go AI gateway with load balancing, clustering, guardrails and budgets. | Apache-2.0 | 2026-11-21 |
-| 7.7k | [llm-gateway](https://github.com/mnfst/llm-gateway) | Self-hosted LLM gateway from Manifest. | MIT | 2026-11-17 |
-| 7.2k | [gpt-load](https://github.com/tbphp/gpt-load) | Self-hosted gateway that pools keys and accounts, with failover and request logs. | MIT | 2026-11-20 |
+| 10.0k | [bifrost](https://github.com/maximhq/bifrost) | Go AI gateway with load balancing, clustering, guardrails and budgets. | Apache-2.0 | 2026-11-23 |
+| 7.7k | [llm-gateway](https://github.com/mnfst/llm-gateway) | Self-hosted LLM gateway from Manifest. | MIT | 2026-11-23 |
+| 7.2k | [gpt-load](https://github.com/tbphp/gpt-load) | Self-hosted gateway that pools keys and accounts, with failover and request logs. | MIT | 2026-11-23 |
 | 7.1k | [plano](https://github.com/katanemo/plano) | Proxy and data plane for agent apps: model routing, observability and guardrails. | Apache-2.0 | 2026-10-24 |
-| 6.5k | [semantic-router](https://github.com/vllm-project/semantic-router) | Routes each request to a model based on its content, from the vLLM project. | Apache-2.0 | 2026-11-21 |
-| 5.6k | [router](https://github.com/weave-os/router) | Self-hosted Go proxy that selects a model for each request and supports Anthropic, OpenAI and Gemini APIs. | Apache-2.0 | 2026-11-21 |
-| 5.5k | [axonhub](https://github.com/looplj/axonhub) | AI gateway with failover, load balancing, cost control and tracing. | Apache-2.0 | 2026-11-20 |
+| 6.5k | [semantic-router](https://github.com/vllm-project/semantic-router) | Routes each request to a model based on its content, from the vLLM project. | Apache-2.0 | 2026-11-23 |
+| 5.6k | [router](https://github.com/weave-os/router) | Self-hosted Go proxy that selects a model for each request and supports Anthropic, OpenAI and Gemini APIs. | Apache-2.0 | 2026-11-23 |
+| 5.5k | [axonhub](https://github.com/looplj/axonhub) | AI gateway with failover, load balancing, cost control and tracing. | Apache-2.0 | 2026-11-23 |
 | 2.4k | [agent-router](https://github.com/theagentrouter/agent-router) | AI gateway built on Envoy Gateway (formerly Envoy AI Gateway). | Apache-2.0 | 2026-11-19 |
-| 1.8k | [llmgateway](https://github.com/theopenco/llmgateway) | Routes, manages and analyzes LLM requests across providers. | AGPL-3.0 + EE | 2026-11-21 |
-| 1.3k | [GoModel](https://github.com/ENTERPILOT/GoModel) | Go AI gateway with OpenAI- and Anthropic-compatible APIs. | MIT | 2026-11-21 |
-| 979 | [respan-gateway](https://github.com/respanai/respan-gateway) | Rust LLM gateway that serves MCP servers and tool APIs to any model behind one OpenAI-compatible endpoint. | Apache-2.0 | 2026-11-20 |
-| 959 | [otari](https://github.com/mozilla-ai/otari) | Self-hosted OpenAI-compatible gateway with virtual keys and budgets, from Mozilla.ai. | Apache-2.0 | 2026-11-21 |
-| 817 | [ThinkWatch](https://github.com/ThinkWatchProject/ThinkWatch) | Self-hosted AI and MCP gateway with SSO, RBAC and PII redaction. | BUSL-1.1 † | 2026-11-21 |
-| 736 | [smg](https://github.com/smg-project/smg) | Rust LLM gateway across self-hosted engines and hosted APIs. | Apache-2.0 | 2026-11-21 |
+| 1.8k | [llmgateway](https://github.com/theopenco/llmgateway) | Routes, manages and analyzes LLM requests across providers. | AGPL-3.0 + EE | 2026-11-23 |
+| 1.3k | [GoModel](https://github.com/ENTERPILOT/GoModel) | Go AI gateway with OpenAI- and Anthropic-compatible APIs. | MIT | 2026-11-23 |
+| 1.0k | [respan-gateway](https://github.com/respanai/respan-gateway) | Rust LLM gateway that serves MCP servers and tool APIs to any model behind one OpenAI-compatible endpoint. | Apache-2.0 | 2026-11-23 |
+| 961 | [otari](https://github.com/mozilla-ai/otari) | Self-hosted OpenAI-compatible gateway with virtual keys and budgets, from Mozilla.ai. | Apache-2.0 | 2026-11-23 |
+| 818 | [ThinkWatch](https://github.com/ThinkWatchProject/ThinkWatch) | Self-hosted AI and MCP gateway with SSO, RBAC and PII redaction. | BUSL-1.1 † | 2026-11-23 |
+| 739 | [smg](https://github.com/smg-project/smg) | Rust LLM gateway across self-hosted engines and hosted APIs. | Apache-2.0 | 2026-11-23 |
 | 666 | [NadirClaw](https://github.com/NadirRouter/NadirClaw) | Routes simple prompts to cheap models and hard ones to premium models. | PolyForm-Noncommercial-1.0.0 † | 2026-11-20 |
-| 648 | [ai-gateway](https://github.com/Helicone/ai-gateway) | Rust AI gateway from Helicone. | GPL-3.0 | 2025-11-21 |
-| 608 | [gateway](https://github.com/adaline/gateway) | Local SDK with one interface to 200+ LLMs. | MIT | 2026-11-21 |
-| 574 | [aiproxy](https://github.com/labring/aiproxy) | AI gateway with multi-channel routing and error handling. | MIT | 2026-11-21 |
+| 648 | [ai-gateway](https://github.com/Helicone/ai-gateway) *(inactive)* | Rust AI gateway from Helicone. | GPL-3.0 | 2025-11-21 |
+| 608 | [gateway](https://github.com/adaline/gateway) | Local SDK with one interface to 200+ LLMs. | MIT | 2026-11-23 |
+| 574 | [aiproxy](https://github.com/labring/aiproxy) | AI gateway with multi-channel routing and error handling. | MIT | 2026-11-23 |
 | 565 | [LLM-API-Key-Proxy](https://github.com/Mirrowel/LLM-API-Key-Proxy) | OpenAI- and Anthropic-compatible proxy with key rotation and load balancing. | LGPL-3.0 / MIT | 2026-11-02 |
 | 453 | [GPTRouter](https://github.com/Writesonic/GPTRouter) *(inactive)* | Routes across LLM and image models with fallbacks. | MIT | 2024-04-10 |
-| 396 | [yolorouter](https://github.com/yolorouter/yolorouter) | Self-hosted gateway with failover, key rotation and an admin console. | Apache-2.0 | 2026-10-28 |
+| 405 | [yolorouter](https://github.com/yolorouter/yolorouter) | Self-hosted gateway with failover, key rotation and an admin console. | Apache-2.0 | 2026-10-28 |
 | 322 | [llmio](https://github.com/atopos31/llmio) | LLM gateway with weighted load balancing and cost tracking. | MIT | 2026-10-29 |
-| 298 | [ai-gateway](https://github.com/ferro-labs/ai-gateway) | Go AI gateway with caching, guardrails, A/B tests and cost controls. | Apache-2.0 | 2026-11-20 |
+| 300 | [ai-gateway](https://github.com/ferro-labs/ai-gateway) | Go AI gateway with caching, guardrails, A/B tests and cost controls. | Apache-2.0 | 2026-11-20 |
 | 234 | [hub](https://github.com/traceloop/hub) | Rust LLM gateway with OpenTelemetry tracing. | Apache-2.0 | 2026-07-16 |
-| 230 | [aisix](https://github.com/api7/aisix) | Rust AI gateway with routing and guardrails, from API7. | Apache-2.0 | 2026-11-20 |
+| 231 | [aisix](https://github.com/api7/aisix) | Rust AI gateway with routing and guardrails, from API7. | Apache-2.0 | 2026-11-23 |
 | 160 | [glide](https://github.com/EinStack/glide) *(inactive)* | Model gateway for production GenAI apps. | Apache-2.0 | 2024-08-12 |
-| 109 | [llm-gateway](https://github.com/openziti/llm-gateway) | Zero-trust LLM gateway with semantic routing. | Apache-2.0 | 2026-10-14 |
-| 19 | [kaeso](https://github.com/logicplanes/kaeso) | Self-hosted Rust AI gateway with OpenAI- and Anthropic-compatible APIs, SSO, budgets and request logs. | MIT | 2026-11-21 |
-| 11 | [yabanin-core](https://github.com/yabaninai/yabanin-core) | Self-hosted Go gateway with OpenAI- and Anthropic-compatible APIs, routing, access controls and usage tracking; Developer Preview. | Apache-2.0 | 2026-11-21 |
+| 110 | [llm-gateway](https://github.com/openziti/llm-gateway) | Zero-trust LLM gateway with semantic routing. | Apache-2.0 | 2026-10-14 |
+| 19 | [kaeso](https://github.com/logicplanes/kaeso) | Self-hosted Rust AI gateway with OpenAI- and Anthropic-compatible APIs, SSO, budgets and request logs. | MIT | 2026-11-23 |
+| 11 | [yabanin-core](https://github.com/yabaninai/yabanin-core) | Self-hosted Go gateway with OpenAI- and Anthropic-compatible APIs, routing, access controls and usage tracking; Developer Preview. | Apache-2.0 | 2026-11-23 |
 | 2 | [OpenProxyAI](https://github.com/Rayyan-Oumlil/OpenProxyAI) | Self-hosted gateway that routes each request by data class, with policy checks, an audit trail, budgets and MCP tool control. | Apache-2.0 | 2026-11-21 |
 | 1 | [omni-route](https://github.com/attnstack/omni-route) | Go gateway with per-task cost-quality routing, cascade upgrades and explainable routing headers. | MIT | 2026-11-05 |
 
@@ -218,15 +218,15 @@ General API gateways that added LLM features, and gateways for MCP and agent tra
 
 | Stars | Project | Description | License | Last push |
 |---:|---|---|---|---|
-| 44.4k | [kong](https://github.com/Kong/kong) | API gateway with AI plugins for multi-LLM routing and governance. | Apache-2.0 | 2026-11-20 |
-| 17.4k | [apisix](https://github.com/apache/apisix) | Cloud-native API gateway with AI proxy plugins. | Apache-2.0 | 2026-11-20 |
-| 10.9k | [tyk](https://github.com/TykTechnologies/tyk) | API gateway with AI and MCP support. | MPL-2.0 + EE | 2026-11-20 |
-| 9.8k | [higress](https://github.com/higress-group/higress) | AI-native API gateway built on Envoy and Istio. | Apache-2.0 | 2026-11-18 |
-| 6.3k | [agentgateway](https://github.com/agentgateway/agentgateway) | Proxy for agent-to-agent and MCP traffic. | Apache-2.0 | 2026-11-21 |
-| 5.7k | [kgateway](https://github.com/kgateway-dev/kgateway) | Kubernetes-native API gateway with AI gateway features. | Apache-2.0 | 2026-11-19 |
-| 4.9k | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) | Gateway and registry in front of MCP, A2A and REST services. | Apache-2.0 | 2026-11-21 |
+| 44.4k | [kong](https://github.com/Kong/kong) | API gateway with AI plugins for multi-LLM routing and governance. | Apache-2.0 | 2026-11-23 |
+| 17.4k | [apisix](https://github.com/apache/apisix) | Cloud-native API gateway with AI proxy plugins. | Apache-2.0 | 2026-11-23 |
+| 10.9k | [tyk](https://github.com/TykTechnologies/tyk) | API gateway with AI and MCP support. | MPL-2.0 + EE | 2026-11-23 |
+| 9.8k | [higress](https://github.com/higress-group/higress) | AI-native API gateway built on Envoy and Istio. | Apache-2.0 | 2026-11-23 |
+| 6.4k | [agentgateway](https://github.com/agentgateway/agentgateway) | Proxy for agent-to-agent and MCP traffic. | Apache-2.0 | 2026-11-23 |
+| 5.8k | [kgateway](https://github.com/kgateway-dev/kgateway) | Kubernetes-native API gateway with AI gateway features. | Apache-2.0 | 2026-11-19 |
+| 4.9k | [mcp-context-forge](https://github.com/IBM/mcp-context-forge) | Gateway and registry in front of MCP, A2A and REST services. | Apache-2.0 | 2026-11-23 |
 | 1.8k | [APIPark](https://github.com/APIParkLab/APIPark) | AI and API gateway with an API developer portal. | Apache-2.0 | 2026-10-27 |
-| 3 | [spend-brake](https://github.com/KIvanow/spend-brake) | Egress proxy that enforces hard dollar caps on the paid APIs agents call, per key, agent and session. | Apache-2.0 + EE | 2026-11-21 |
+| 3 | [spend-brake](https://github.com/KIvanow/spend-brake) | Egress proxy that enforces hard dollar caps on the paid APIs agents call, per key, agent and session. | Apache-2.0 + EE | 2026-11-23 |
 
 ## Prompt management
 
@@ -240,10 +240,10 @@ Store, version, test and serve prompts outside your application code.
 | 268 | [PromptWorks](https://github.com/YellowSeaa/PromptWorks) | Prompt management and testing tool. | Apache-2.0 | 2026-06-22 |
 | 181 | [prompt-shelf](https://github.com/newdee/prompt-shelf) *(inactive)* | Lightweight prompt management system. | MIT | 2025-07-30 |
 | 122 | [llmkit](https://github.com/llmkit-ai/llmkit) *(inactive)* | Prompt versioning, testing and evaluation server with a UI. | MIT | 2025-06-26 |
-| 116 | [deck](https://github.com/promptphp/deck) | Laravel package for versioned prompts with A/B testing. | MIT | 2026-11-21 |
+| 117 | [deck](https://github.com/promptphp/deck) | Laravel package for versioned prompts with A/B testing. | MIT | 2026-11-23 |
 | 107 | [proofhound](https://github.com/proofhound/proofhound) | Prompt management, optimization and release platform. | Apache-2.0 | 2026-07-03 |
 | 99 | [promptdesk](https://github.com/promptdesk/promptdesk) *(inactive)* | Create, organize and evaluate prompts. | AGPL-3.0 | 2025-08-29 |
-| 2 | [prompt-migrate](https://github.com/himanshu231204/prompt-migrate) | Alembic-style migrations for prompts and agent configs, with per-environment state, rollback and drift checks. | MIT | 2026-11-21 |
+| 3 | [prompt-migrate](https://github.com/himanshu231204/prompt-migrate) | Alembic-style migrations for prompts and agent configs, with per-environment state, rollback and drift checks. | MIT | 2026-11-22 |
 
 ## Contributing
 
