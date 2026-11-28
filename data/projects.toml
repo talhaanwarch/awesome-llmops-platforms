@@ -221,4 +221,5 @@ projects = [
   { repo = "newdee/prompt-shelf", desc = "Lightweight prompt management system." },
   { repo = "promptphp/deck", desc = "Laravel package for versioned prompts with A/B testing." },
   { repo = "promptdesk/promptdesk", desc = "Create, organize and evaluate prompts." },
+  { repo = "Ertugrulmutlu/promptledger", desc = "Local-first prompt versioning, evaluation tracking, regression gates and release management with an extensible plugin SDK." },
 ]
